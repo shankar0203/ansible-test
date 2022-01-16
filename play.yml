@@ -25,7 +25,7 @@
          dest: /opt
          remote_src: yes
        
-     - name: run the tomcat
+     - name: run the tomcat(start/stop)
        shell: /opt/apache-tomcat-9.0.56/bin/startup.sh
        
         
