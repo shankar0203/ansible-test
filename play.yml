@@ -8,6 +8,11 @@
        yum: 
          name: "*"
          state: latest
+         
+     - name: cteate a direcory
+       file:
+         path: /opt/tomcat
+         state: directory
       
      - name: install java
        yum:
