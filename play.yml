@@ -23,6 +23,7 @@
        unarchive:
          src: "/opt/apache-tomcat-9.0.56.tar.gz"
          dest: /opt/tom
+         remote_src: yes
        
      - name: run the tomcat
        shell: /opt/tom/bin/startup.sh
