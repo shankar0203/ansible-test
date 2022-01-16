@@ -19,7 +19,7 @@
          url: https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.56/bin/apache-tomcat-9.0.56.tar.gz
          dest: /opt
          
-     - name: extracting the tomcat 
+     - name: extracting the tomcat tar file
        unarchive:
          src: "/opt/apache-tomcat-9.0.56.tar.gz"
          dest: /opt
