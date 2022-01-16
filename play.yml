@@ -6,7 +6,7 @@
    tasks:
     - name: update the machine
       yum: 
-       - name: " * "
+       - name: "*"
          state: latest
       
     - name: install java
