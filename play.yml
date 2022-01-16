@@ -1,5 +1,5 @@
 ---
- - name : install and configure the tomcat server
+ - name : install and configure the linux tomcat server
    hosts: all
    gather_facts: false
    become: true
