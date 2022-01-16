@@ -6,12 +6,12 @@
    tasks:
      - name: update the machine
        yum: 
-        - name: "*"
-          state: latest
+         name: "*"
+         state: latest
       
      - name: install java
        yum:
-        - name: java-1.8.0
-          state: latest
+         name: java-1.8.0
+         state: latest
         
    
